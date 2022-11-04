@@ -57,17 +57,17 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -82,7 +82,7 @@ body {
     margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -93,7 +93,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -154,12 +154,12 @@ body {
 
 .btn:hover {
     transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
 }
 
 .btn:active {
     transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
 }
 
 .btn::after {
@@ -180,16 +180,16 @@ body {
     opacity: 0;
 }
 
-.btn-white {
+.btn--white {
     color: $color-gray-dark;
     background-color: $color-white;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: $color-white;    
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInButtom 1s ease-out .75s;
     animation-fill-mode: backwards;
 }
