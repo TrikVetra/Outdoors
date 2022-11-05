@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    // We have to convert pixels to % for better user experience.
+    // Default browser fontsize 16px. 100% mean 16px
+    // We need 10px here for correct 'rem' working
+    // 10/16 = 62.5%
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
